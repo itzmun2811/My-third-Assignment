@@ -34,7 +34,7 @@
   <div class=" container mx-auto flex justify-between">
     <div class="flex gap-2 items-center"> 
         <img src="./c1-assets/logo-header.png" alt="">
-        <p class="text-xl">Browse<span class="text-orange-300">4</span>Pets</p>
+        <p class="text-xl hidden lg:block">Browse<span class="text-orange-300">4</span>Pets</p>
 
 
     </div>
@@ -53,8 +53,8 @@
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
           </svg>
-          <button class="btn">Login</button>
-          <button class="btn">Register</button>
+          <button class="btn text-black border-orange-300 btn-outline">Login</button>
+          <button class="btn  btn-warning">Register</button>
     </div>
 
 
@@ -64,7 +64,7 @@
 <!-- banner section -->
 
 <section class="shadow-lg shadow-[rgba(0, 0, 0, 0.25);] mt-20  container mx-auto h-[800px] bg-[url('./c1-assets/cat-big.png')] bg-no-repeat 
-bg-contain bg-center">
+bg-contain bg-center ">
     <div class="pt-20 pl-10 "> 
         <h1 class="text-6xl font-adlam pb-4 animate-pulse transition-shadow ">
         Pamper Your Pet, <br> Because They Deserve <br>
@@ -85,81 +85,86 @@ bg-contain bg-center">
 </section>
    </header>
    <main>
+    <!-- browse section -->
 <section class="mt-40 container mx-auto">
  <h2 class="font-adlam text-3xl font-medium mb-12"> Browse By Catagories</h2>
- <div class="grid grid-cols-6 gap-2 items-center justify-center mb-36 ">
-  <div class="bg-yellow-500 px-6 py-10 rounded-2xl w-[200px] items-center justify-center">
-    <div class="bg-white rounded-full w-3/4">
+ <div class="flex gap-9 mb-36 ">
+  <div class="bg-[#F9DF8A] px-6 py-10 rounded-2xl w-[210px] justify-center items-center text-center ">
+    <div class="bg-white rounded-full w-3/4 ml-3">
         <img class="p-6 w-full rounded-full" src="./c1-assets/dog-cartoon.png" alt="">
     </div>
    
-    <h2>Dog</h2>
+    <h2 class="pt-2 pb-2 font-adlam">Dog</h2>
     <p>3 items</p>
   </div>
-  <div class="bg-yellow-500 px-6 py-10 rounded-2xl w-[200px] items-center justify-center">
-    <div class="bg-white rounded-full w-3/4">
+  <div class="bg-[#F9DF8A] px-6 py-10 rounded-2xl w-[210px] justify-center items-center text-center ">
+    <div class="bg-white rounded-full w-3/4 ml-3">
         <img class="p-6 w-full rounded-full" src="./c1-assets/fish-cartoon.png" alt="">
     </div>
    
-    <h2>Dog</h2>
+    <h2 class="pt-2 pb-2 font-adlam">Fish</h2>
     <p>3 items</p>
   </div>
-  <div class="bg-yellow-500 px-6 py-10 rounded-2xl w-[200px] items-center justify-center">
-    <div class="bg-white rounded-full w-3/4">
+  <div class="bg-[#F9DF8A] px-6 py-10 rounded-2xl w-[210px] justify-center items-center text-center ">
+    <div class="bg-white rounded-full w-3/4 ml-3">
         <img class="p-6 w-full rounded-full" src="./c1-assets/cat-cartoon.png" alt="">
     </div>
    
-    <h2>Dog</h2>
+    <h2 class="pt-2 pb-2 font-adlam">Cat</h2>
     <p>3 items</p>
   </div>
-  <div class="bg-yellow-500 px-6 py-10 rounded-2xl w-[200px] items-center justify-center">
-    <div class="bg-white rounded-full w-3/4">
+  <div class="bg-[#F9DF8A] px-6 py-10 rounded-2xl w-[210px] justify-center items-center text-center ">
+    <div class="bg-white rounded-full w-3/4 ml-3">
         <img class="p-6 w-full rounded-full" src="./c1-assets/bird-cartoon.png" alt="">
     </div>
    
-    <h2>Dog</h2>
+    <h2 class="pt-2 pb-2 font-adlam">Bird</h2>
     <p>3 items</p>
   </div>
-  <div class="bg-yellow-500 px-6 py-10 rounded-2xl w-[200px] items-center justify-center">
-    <div class="bg-white rounded-full w-3/4">
+  <div class="bg-[#F9DF8A] px-6 py-10 rounded-2xl w-[210px] justify-center items-center text-center ">
+    <div class="bg-white rounded-full w-3/4 ml-3">
         <img class="p-6 w-full rounded-full" src="./c1-assets/mouse-cartoon.png" alt="">
     </div>
    
-    <h2>Dog</h2>
+    <h2 class="pt-2 pb-2 font-adlam">Mouse</h2>
     <p>3 items</p>
   </div>
-  <div class="bg-yellow-500 px-6 py-10 rounded-2xl w-[200px] items-center justify-center">
-    <div class="bg-white rounded-full w-3/4">
+ 
+  <div class="bg-[#F9DF8A] px-6 py-10 rounded-2xl w-[210px] justify-center items-center text-center ">
+    <div class="bg-white rounded-full w-3/4 ml-3">
         <img class="p-6 w-full rounded-full" src="./c1-assets/rabbit-cartoon.png" alt="">
     </div>
    
-    <h2>Dog</h2>
+    <h2 class="pt-2 pb-2 font-adlam">Mouse</h2>
     <p>3 items</p>
+  </div>
+ 
   </div>
  
 
 </section>
+<!-- trending section -->
 <section class="bg-[#FFF9F4]">
     <div class="container mx-auto  ">
-    <h2 class="font-adlam text-3xl font-medium mt-36"> Trending Pet Products</h2>
- <div class="flex gap-3 pb-36 pt-36 ">
-    <div class="flex bg-[#F9DF8A] w-2/6">
-       <div>
-      <h1 class="font-adlam">T-shirt for dogs</h1>
-      <p>Discover a world of treats,toys and <br>
+    <h2 class="font-adlam text-3xl font-medium pt-40"> Trending Pet Products</h2>
+ <div class="flex gap-3 pb-36 pt-12">
+    <div class="flex bg-[#F9DF8A] w-2/6 justify-center relative  rounded-2xl">
+       <div class="pl-6 pt-16 w-[404px] h-[400px]  ">
+      <h1 class="font-adlam font-medium text-3xl pb-6">T-shirt for dogs</h1>
+      <p>Discover a world of treats,toys and 
     essentials handpicked for</p>
-      <button class="btn">Shop Now</button>
+      <button class="btn mt-5 p-4">Shop Now</button>
        </div>
-       <div> 
-        <img src="./c1-assets/cute-pet-mid.png" alt=""></div>
+       <div > 
+        <img class="absolute -bottom-3 right-5 w-2/5" src="./c1-assets/cute-pet-mid.png" alt=""></div>
     </div>
-    <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 w-4/5">
       <div class="flex bg-white gap-1 items-center px-12 py-2 rounded-xl">
         <div class="bg-[#f1d3ba] rounded-xl m-4">
             <img class="p-4" src="./c1-assets/dog-cartoon.png" alt="">
         </div>
         <div class="space-y-1">
-            <div class="flex">
+            <div class="flex space-x-2">
                 <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="orange" class="size-6">
                     <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
                   </svg>
@@ -172,10 +177,10 @@ bg-contain bg-center">
       </div>
       <div class="flex bg-white gap-1 items-center px-12 py-2 rounded-xl">
         <div class="bg-[#f1d3ba] rounded-xl m-4">
-            <img class="p-4" src="./c1-assets/dog-cartoon.png" alt="">
+            <img class="p-4" src="./c1-assets/fish-cartoon.png" alt="">
         </div>
         <div class="space-y-1">
-            <div class="flex">
+            <div class="flex space-x-2">
                 <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="orange" class="size-6">
                     <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
                   </svg>
@@ -188,10 +193,10 @@ bg-contain bg-center">
       </div>
       <div class="flex bg-white gap-1 items-center px-12 py-2 rounded-xl">
         <div class="bg-[#f1d3ba] rounded-xl m-4">
-            <img class="p-4" src="./c1-assets/dog-cartoon.png" alt="">
+            <img class="p-4" src="./c1-assets/bird-cartoon.png" alt="">
         </div>
         <div class="space-y-1">
-            <div class="flex">
+            <div class="flex space-x-2">
                 <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="orange" class="size-6">
                     <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
                   </svg>
@@ -204,10 +209,10 @@ bg-contain bg-center">
       </div>
       <div class="flex bg-white gap-1 items-center px-12 py-2 rounded-xl">
         <div class="bg-[#f1d3ba] rounded-xl m-4">
-            <img class="p-4" src="./c1-assets/dog-cartoon.png" alt="">
+            <img class="p-4" src="./c1-assets/rabbit-cartoon.png" alt="">
         </div>
         <div class="space-y-1">
-            <div class="flex">
+            <div class="flex space-x-2 ">
                 <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="orange" class="size-6">
                     <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
                   </svg>
@@ -220,10 +225,10 @@ bg-contain bg-center">
       </div>
       <div class="flex bg-white gap-1 items-center px-12 py-2 rounded-xl">
         <div class="bg-[#f1d3ba] rounded-xl m-4">
-            <img class="p-4" src="./c1-assets/dog-cartoon.png" alt="">
+            <img class="p-4" src="./c1-assets/bird-cartoon.png" alt="">
         </div>
         <div class="space-y-1">
-            <div class="flex">
+            <div class="flex space-x-2">
                 <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="orange" class="size-6">
                     <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
                   </svg>
@@ -236,10 +241,10 @@ bg-contain bg-center">
       </div>
       <div class="flex bg-white gap-1 items-center px-12 py-2 rounded-xl">
         <div class="bg-[#f1d3ba] rounded-xl m-4">
-            <img class="p-4" src="./c1-assets/dog-cartoon.png" alt="">
+            <img class="p-4" src="./c1-assets/pet-couch.png" alt="">
         </div>
         <div class="space-y-1">
-            <div class="flex">
+            <div class="flex space-x-2">
                 <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="orange" class="size-6">
                     <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
                   </svg>
@@ -252,10 +257,10 @@ bg-contain bg-center">
       </div>
       <div class="flex bg-white gap-1 items-center px-12 py-2 rounded-xl">
         <div class="bg-[#f1d3ba] rounded-xl m-4">
-            <img class="p-4" src="./c1-assets/dog-cartoon.png" alt="">
+            <img class="p-4" src="./c1-assets/fish-cartoon.png" alt="">
         </div>
         <div class="space-y-1">
-            <div class="flex">
+            <div class="flex space-x-2">
                 <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="orange" class="size-6">
                     <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
                   </svg>
@@ -268,10 +273,10 @@ bg-contain bg-center">
       </div>
       <div class="flex bg-white gap-1 items-center px-12 py-2 rounded-xl">
         <div class="bg-[#f1d3ba] rounded-xl m-4">
-            <img class="p-4" src="./c1-assets/dog-cartoon.png" alt="">
+            <img class="p-4" src="./c1-assets/pet-couch.png" alt="">
         </div>
         <div class="space-y-1">
-            <div class="flex">
+            <div class="flex space-x-2">
                 <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="orange" class="size-6">
                     <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
                   </svg>
@@ -283,8 +288,8 @@ bg-contain bg-center">
         </div>
       </div>
       <div class="flex bg-white gap-1 items-center px-12 py-2 rounded-xl">
-        <div class="bg-[#f1d3ba] rounded-xl m-4">
-            <img class="p-4" src="./c1-assets/dog-cartoon.png" alt="">
+        <div class="bg-[#ece2da] rounded-xl m-4">
+            <img class="p-4" src="./c1-assets/rabbit-cartoon.png" alt="">
         </div>
         <div class="space-y-1">
             <div class="flex">
@@ -304,16 +309,17 @@ bg-contain bg-center">
 
 
 </section>
+<!-- another section -->
 <section class="container mx-auto">
     <h2 class="font-adlam text-3xl font-medium mb-12"> Everyday Low Price</h2>
      <div class="flex mb-80">
-    <div class=" flex-2 flex bg-gradient-to-t from-[#F8CCFBFF] to-[#ACD2FDFF]">
-     <div>
+    <div class=" w- flex bg-gradient-to-r from-[#F8CCFBFF] to-[#ACD2FDFF]">
+     <div class="pt-32 pl-12">
      <p>Under Price</p>
-     <h2>Pet Grooming Mit</h2>
-     <p>(Easy Hair Removal
+     <h2 class="font-adlam font-medium text-4xl">Pet Grooming Mit</h2>
+     <p class="text-white">(Easy Hair Removal
         )</p>
-        <p>$7.99</p>
+        <p class="font-adlams font-semibold text-6xl">$7.99</p>
      </div>
      <div>
         <img src="./c1-assets/cute-dog-mid.png" alt="">
@@ -321,7 +327,7 @@ bg-contain bg-center">
 
     </div>
 
-    <div class="flex flex-1 bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A]">
+    <div class="flex w-2/5 bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A]">
     <div>
   <h1>
     T-Shirt for Dogs
@@ -342,7 +348,7 @@ bg-contain bg-center">
    <footer class="bg-[#FFDC2680] relative">
     <section class="container mx-auto">
       <div class="bg-[#f1d3ba] container w-3/5 absolute
-       bottom-60 left-40 -right-50 flex items-center justify-center py-20">
+       bottom-60  left-40 right-40 -right-50 flex items-center justify-center py-20">
         <div>
          <img src="./c1-assets/cute-pet-mid.png" alt="">
         </div>
